@@ -1,0 +1,76 @@
+html {
+    font-family: 'Teko', sans-serif;
+    font-size: 12px;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+/* Header */
+
+header {
+    position: fixed;
+    z-index: 100;
+    width:100%;
+    background: rgb(80, 207, 218);
+    height: 12.08rem;
+}
+
+header .logo {
+    width: 14rem;
+    height: auto;
+    float: left;
+    margin-top: -1.5rem;
+}
+
+header .mobile {
+    display: none;
+}
+
+nav ul {
+    float: right;
+    margin-right: 2rem;
+    padding-top: 0.75rem;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 10rem;
+    margin: 0 0.75rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: #ff6341;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.button {
+    background-color: #ff6341;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 0 0.5rem;
+}
+
+.button:hover {
+    background-color: white;
+    color: #ff6341;
+    transition-duration: 0.4s;
+}
+
+.mission {
+    background-image: url('/resources/Images/Missionstatement.jpg');
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
